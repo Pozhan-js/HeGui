@@ -1,0 +1,109 @@
+{
+    "dayCard": [
+        {
+            "title": "支付金额（元）",
+            "key": "payAmount",
+            "value": "toDecimal2"
+        },
+        {
+            "title": "支付订单数",
+            "key": "payOrderNumber"
+        },
+        {
+            "title": "支付人数",
+            "key": "payUserNumber"
+        },
+        {
+            "title": "客单价（元）",
+            "key": "customerPrice",
+            "value": "toDecimal2"
+        },
+        {
+            "title": "访问-点击转化率",
+            "key": "clickConversionRate",
+            "value": "percentage"
+        },
+        {
+            "title": "访问-支付转化率",
+            "key": "payConversionRate",
+            "value": "percentage"
+        },
+        {
+            "title": "浏览量",
+            "key": "pageViewVolume"
+        },
+        {
+            "title": "访客量",
+            "key": "visitorVolume"
+        },
+        {
+            "title": "新增粉丝",
+            "key": "addFans"
+        },
+        {
+            "title": "在线配送员",
+            "key": "onlineDistribution"
+        },
+        {
+            "title": "注册配送员",
+            "key": "addDistribution"
+        },
+        {
+            "title": "复购率",
+            "key": "repurchaseRate",
+            "value": "percentage"
+        },
+        {
+            "title": "超时订单数",
+            "key": "timeOutOrderNumber"
+        },
+        {
+            "title": "订单超时率",
+            "key": "timeOutOrderRate",
+            "value": "percentage"
+        }
+    ],
+    "moonCard": [
+        {
+            "title": "支付金额（元）",
+            "key": "payAmount",
+            "value": "toDecimal2"
+        },
+        {
+            "title": "支付订单数",
+            "key": "payOrderNumber"
+        },
+        {
+            "title": "支付人数",
+            "key": "payUserNumber"
+        },
+        {
+            "title": "客单价（元）",
+            "key": "customerPrice",
+            "value": "toDecimal2"
+        },
+        {
+            "title": "复购率",
+            "key": "repurchaseRate",
+            "value": "percentage"
+        },
+        {
+            "title": "访问-点击转化率",
+            "key": "clickConversionRate",
+            "value": "percentage"
+        },
+        {
+            "title": "访问-支付转化率",
+            "key": "payConversionRate",
+            "value": "percentage"
+        },
+        {
+            "title": "浏览量",
+            "key": "pageViewVolume"
+        },
+        {
+            "title": "访客量",
+            "key": "visitorVolume"
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+@import './variables.scss';
+// 表格铵钮
+.el-button--text,
+.outer-link--text {
+   color: $blue;
+    &:hover {
+      color: $blueHover;
+    }
+    &:focus,
+    &:active {
+      color: $blue;
+    }
+    // 危险操作字体样式
+    &.text-red{
+      color: $red;
+      &:hover{
+        color: $redHover;
+      }
+    }
+}
+.outer-link--text {
+  text-decoration: underline;
+}
+
+.el-table{
+  // 通用表格行背景
+  &:not(.table-no--striped) tr.el-table__row {
+    background-color: $--bg-gray3;
+    &:nth-child(2n) {
+      background-color: $--bg-gray2;
+    }
+  }
+  // 树型表格样式
+  &.tree-table { 
+    tr.el-table__row {
+      background-color: #fff;
+      &:nth-child(2n) {
+        background-color: #fff;
+      }
+      &.row-expanded{
+        &.el-table__row--level-0 {
+          background-color: #FFCB8D;
+        }
+        &.el-table__row--level-1{
+          background-color: #FFEFDD;
+        }
+        &.el-table__row--level-2{
+          background-color: #FFFBF4;
+        }
+        &.el-table__row--level-0.hover-row > td,
+        &.el-table__row--level-1.hover-row > td,
+        &.el-table__row--level-2.hover-row > td {
+          color:inherit !important;
+          opacity: 0.9;
+        }
+      } 
+
+
+    }
+    .el-table__body tr.hover-row.current-row>td,
+    .el-table__body tr.hover-row.el-table__row--striped.current-row>td,
+    .el-table__body tr.hover-row.el-table__row--striped>td,
+    .el-table__body tr.hover-row>td{
+      background-color:inherit;
+      color: #FFCB8D
+    }
+  }
+  &__header-wrapper,
+  &__fixed-header-wrapper {
+    th {
+			word-break: break-word;
+      background-color: $--bg-gray1;
+      color: #515a6e;
+			height: 40px;
+			font-size: 13px;
+    }
+  }
+  &__body-wrapper {
+		.el-button [class*="el-icon-"] + span {
+			margin-left: 1px;
+		}
+	}
+
+  &--striped{
+    .el-table__body tr.el-table__row--striped {
+      td {
+        background-color: $--bg-gray2
+      }
+    }
+  }
+  .el-button{
+    margin: 0 5px !important; 
+  }
+  .el-button--mini{
+    font-size: 14px;
+  }
+  
+  .el-tag {
+    line-height: 24px;
+    height: 26px;
+    background-color: transparent;
+    color: $blue;
+    border-color: $blue;
+  }
+}
+
+
+// 订单列表表头
+.order_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  background-color: #e3e3e3 !important;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 10px;
+  border-bottom: 1px solid #e2e2e2 !important;
+}
